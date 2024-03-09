@@ -1,0 +1,179 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+.home{
+  height: 100%;
+  background: #F5F5F5;
+}
+
+.navBoard{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.logo{
+  transform: scale(1.7);
+}
+nav{
+  background: rgba(245, 245, 245, .5);
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  margin: auto;
+  z-index: 10;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav a{
+  text-decoration: none;
+  color: #333333;
+  font-weight: bold;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #333333;
+  font-weight: bold;
+
+}
+
+nav ul li a:hover, nav a:hover{
+  text-decoration: underline;
+  color: rgba(204, 204, 204, .8);
+  cursor: default;
+}
+
+nav ul li a:focus{
+  color: rgba(204, 204, 204, .8);
+}
+
+.details{
+  text-align: center;
+  margin-left: 8%;
+  margin-right: 50%;
+  transform: translateY(220px);
+
+}
+
+.details h1{
+  font-size: 50px;
+  color: rgba(204, 204, 204, 1);
+  margin-bottom: 20px;
+}
+
+.details span{
+  color: #333333;
+}
+
+.details p{
+  color: #000000;
+  line-height: 22px;
+} 
+
+button:hover{
+  cursor: pointer;
+}
+.details button{
+  width: 10vw;
+  font-size: 1vw;
+  padding: .5vw;
+  border-radius: 5vw;
+  color: white;
+  background-color: #333333;
+}
+.contactBtn{
+  margin: 1vw 2vw;
+}
+.resume{
+  margin: 1vw 3vw;
+}
+
+.images{
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+
+.images img{
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: bottom 1s, left 1s;
+  filter: drop-shadow(2px 3px);
+}
+
+.images:hover .background{
+  bottom: 40px;
+}
+
+.images:hover .myPhoto{
+  left: 45%;
+}
+
+.about{
+  height: 46.5vw;
+  background: #333333;
+  color: #F5F5F5;
+}
+
+.about h1{
+  display: inline-block;
+  transform: translate(100px, 100px);
+  font-weight: 500;
+  font-size: 200px;
+}
+.about p{
+  position: absolute;
+  transform: translate(120px,100px);
+  font-size: 18px;
+  letter-spacing: 2.5px;
+}
+.about a{
+  text-decoration: underline;
+  font-size: 22px;
+  color: white;
+}
+.about span{
+  font-style: italic;
+  font-size: 22px;
+  color: white;
+}
+
+.project{
+  height: 46.5vw;
+  background: rgba(0, 0, 0, .4);
+  color: #F5F5F5;
+}
+.projectDetails{
+  display: inline-block;
+  transform: translate(100px, 100px);
+}
+
+.projectDetails h1{
+  font-weight: 500;
+  font-size: 70px;
+}
+
+/*.projectDetails img a{
+  text-align: left;
+}*/
+
+
